@@ -1,0 +1,81 @@
+word:acção;
+meaning:Termo usado para descrever a função do movimento que acontece frente da camara;
+eng_w:action;
+syn:;
+
+word:elenco;
+meaning:conjunto de actores seleccionados;
+eng_w:cast;
+syn:;
+
+word:fita;
+meaning:pedaço de pelicula cortado e separado para a montagem;
+eng_w:loop;
+syn:aro,fita;
+
+word:realizador;
+meaning:responsável pela realização do filme;
+eng_w:director;
+syn:realizador;
+
+word:productor;
+meaning:responsável por captar de recursos para o filme;
+eng_w:productor;
+syn:productor;
+
+word:drama;
+meaning:filme que envolve grande emoção entre as personagens;
+eng_w:drama;
+syn:emocionante;
+
+word:terror;
+meaning:filme com cenas que pretende provocar a sensação de medo;
+eng_w:terror;
+syn:medo,suspense,impressionismo;
+
+word:trailer;
+meaning:Propaganda do filme que será exibido no futuro;
+eng_w:previews;
+syn:trailer,previsão;
+
+word:actor;
+meaning:Pessoa que interagem activamente na acção;
+eng_w:actor;
+syn:;
+
+word:figurante;
+meaning:Pessoa que aparece na acção mas não interage;
+eng_w:background actor;
+syn:actor extra;
+
+word:comédia;
+meaning:Filme com conteúdo divertido e com acções hilariantes e cómicas;
+eng_w:comedy;
+syn:cómico,divertido;
+
+word:ficção-científica;
+meaning:Filme com grandes efeitos especiais com grandes fantasias ligadas à natureza e espaço;
+eng_w:science fiction;
+syn:futurista,sobre-humana;
+
+word:argumento;
+meaning:Percurso da acção resumo contendo asprincipais indicações da história localização personagens. Defesa da história;
+eng_w:screenplay;
+syn:história;
+
+word:cena;
+meaning:Unidade dramática do roteiro secção contínua de ação dentro de uma mesma;
+eng_w:scene;
+syn:onde se desenrola a cena;
+
+word:conflito;
+meaning:Embate de forças e personagens através do qual a ação se desenvolve;
+eng_w:conflict;
+syn:zona de maior acção;
+
+word:película;
+meaning:qualquer filme fotográfico que é utilizado para a realização de filmes para cinema ou televisão;
+eng_w:film;
+syn:rolo cinematográfico;
+
+

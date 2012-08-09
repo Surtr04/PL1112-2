@@ -1,0 +1,75 @@
+%{
+#include "y.tab.h";
+%}
+
+%x LATEX
+%x SECTION
+
+%%
+
+\n\t
+
+dictionary {
+	return DICTIONARY;
+}
+
+file {
+	return FILES;	
+}
+
+: {
+	return COLON;
+}
+
+\; {
+	return ENDLINE;
+}
+
+word {
+	return WORD;
+}
+
+meaning {
+	return MEANING;
+}
+
+eng_w {
+	return ENG_W;
+}
+
+syn {
+	return SYN;
+}
+
+, {
+	return COMMA;
+}
+
+[a-zA-Z1-9\/\.' '\-à-é]+ {
+		yylval.str=strdup(yytext);
+		return STRING;	
+}
+
+\\documentclass {
+	fprintf(yyout,"\\documentclass");
+	BEGIN(LATEX);
+	}
+
+<LATEX>{
+	ECHO;
+	\\section {
+		fprintf(yyout,"\\section");
+		BEGIN(SECTION);		
+	}
+}
+
+<SECTION>{
+	ECHO;
+	[a-zA-Z1-9à-é\-]+ {
+		yylval.str=strdup(yytext);
+		return TEXT;
+	}
+	\\end\{document\} return FINAL;
+}
+
+%%
